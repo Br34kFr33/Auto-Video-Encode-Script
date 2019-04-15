@@ -1,6 +1,6 @@
 <?php
 
-$tv = '/var/www/html/videos/shows/';
+$tv = '/home/shows/';
 $trash = '/home/Trash/';
 
 //Remove un-needed words from TV Show name
