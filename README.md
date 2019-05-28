@@ -1,14 +1,15 @@
-# Auto-Encoder
+# Auto Video Encoder
 
-This script scans a directory for any video files with .avi, .mp4, .mkv extentions and re-enodes them to .mp4 format.  It also cleans up the filename by looking for keywords that are set in config.php file and removes them.
-
+This script scans directories for any video files with .avi, .mp4, or .mkv extentions, and then enodes them to a .mp4 format.  It also cleans up the filename.
 
 # Requirements
 
+* PHP
 * ffmpeg
-* php
+* screen
 
 # Setup
 
-1.  Edit re_encode.php and replace /home/Videos/TV/ with whatever directory you want to scan.
-2.  Edit config.php and replace /var/www/html/videos/shows/ with your complete directory and replace /home/Trash/ with the directory you want the old video files to be moved to.
+1.  Change all directories to match yours.
+2.  Start script with screen php encode.php
+3.  Exit screen by pressing Ctrl ad
