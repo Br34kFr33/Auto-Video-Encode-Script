@@ -1,9 +1,9 @@
 <?php
 
 //Directory to place finished encodes into
-$tv = '/home/br0k3n/stream/shows/';
-$movies = '/home/br0k3n/stream/movies/new/';
-$trash = '/home/br0k3n/bkup/Trash/';
+$tv = '/home/user-name/shows/';
+$movies = '/home/user-name/movies/';
+$trash = '/home/user-name/Trash/';
 
 $files = glob('/home/br0k3n/bkup/Videos/*/*.{avi,mkv,mp4,}', GLOB_BRACE);
         foreach($files as $file) {
