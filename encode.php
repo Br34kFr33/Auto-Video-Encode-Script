@@ -5,7 +5,7 @@ $tv = '/home/user-name/shows/';
 $movies = '/home/user-name/movies/';
 $trash = '/home/user-name/Trash/';
 
-$files = glob('/home/br0k3n/bkup/Videos/*/*.{avi,mkv,mp4,}', GLOB_BRACE);
+$files = glob('/home/user-name/Videos/*/*.{avi,mkv,mp4,}', GLOB_BRACE);
         foreach($files as $file) {
 		$noPath = basename($file);
 		$fileName = substr($noPath, "0", -4);
