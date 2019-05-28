@@ -3,7 +3,7 @@
 //Directory to place finished encodes into
 $tv = '/home/user-name/shows/';
 $movies = '/home/user-name/movies/';
-$trash = '/home/user-name/Trash/';
+$trash = '/home/user-name/trash/';
 
 $files = glob('/home/user-name/Videos/*/*.{avi,mkv,mp4,}', GLOB_BRACE);
         foreach($files as $file) {
